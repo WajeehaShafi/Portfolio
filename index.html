@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home" class="logo"><span>Portfolio.</span></a>
+            <ul class="links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <i class='bx bx-menu-alt-right' id="menu"></i>
+            <a href="#contact" class="btn">Contact Me</a>
+        </nav>
+    </header>
+    
+    <main>
+       
+        <section id="home">
+            <img src="Images/me2.jpg" alt="Portrait of Wajeeha, a web developer" />
+            <div class="info-box">
+                <h1><span>Hello! I am Wajeeha</span></h1>
+                <h3><span>Web Developer</span> based in Pakistan</h3>
+                <p>Welcome to my portfolio! I specialize in creating dynamic, user-friendly websites and applications.</p>
+            </div>
+            <div class="btn-box">
+                <a href="#contact" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </section>
+
+       
+        <section id="about">
+            <div class="about-box">
+                <div class="about-info">
+                    <h1><span>About Me</span></h1>
+                    <p>I am a passionate web developer with expertise in modern technologies. My goal is to build efficient and innovative solutions for the web.</p>
+                </div>
+                <h2><span>Skills</span></h2>
+                <div class="skills">
+                    <ul>
+                        <li><i class='bx bx-chevron-right'></i> HTML</li>
+                        <li><i class='bx bx-chevron-right'></i> CSS</li>
+                        <li><i class='bx bx-chevron-right'></i> JavaScript</li>
+                    </ul>
+                    <ul>
+                        <li><i class='bx bx-chevron-right'></i> React</li>
+                        <li><i class='bx bx-chevron-right'></i> Node.js</li>
+                        <li><i class='bx bx-chevron-right'></i> MySQL</li>
+                    </ul>
+                </div>
+            </div>
+            <img src="Images/me2.jpg" alt="Wajeeha working on a project">
+        </section>
+
+       
+        <section id="services">
+            <h1 class="header"><span>Services</span></h1>
+            <div class="services-container">
+                <div class="box">
+                    <h1><span>Web Design</span></h1>
+                    <p>Creating intuitive and visually appealing website designs tailored to your needs.</p>
+                    <img src="Images/professional-programmer-working-late-dark-office.jpg" alt="A mockup of web design project">
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="contact">
+            <h1 class="header"><span>Contact Me</span></h1>
+            <div class="contact-container">
+                <form action="#" method="POST" class="contact-form">
+                    <div class="input-box">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer>
+        <div class="footer-container">
+            <div class="socials">
+                <a href="https://twitter.com/" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
+            </div>
+            <p>&copy; 2025 Wajeeha. All rights reserved.</p>
+            <a href="#home" class="back-to-top">Back to Top</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
